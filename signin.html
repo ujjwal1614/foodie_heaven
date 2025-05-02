@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="signin.css">
+</head>
+<style>
+    body {
+        background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210403/pngtree-simple-white-flat-vectors-with-diagonal-cuts-decorative-backdrops-for-your-image_597614.jpg');
+    }
+</style>
+<div class="containor">
+    <div class="loginbox">
+        <form action="inputbox">
+            <h1>Login</h1>
+            <div class="inputbox">
+                <input type="text" placeholder="Username" id="name" required>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="inputbox">
+                <input type="number" placeholder="Phone number" id="phone" required>
+                <i class='bx bxs-phone'></i>
+            </div>
+            <button type="button" class="btn" onclick="validatePhoneNumber()">Login</button>
+            <p>or login with social platforms</p>
+            <div class="socialplatforms">
+                <a href="#"><i class='bx bxl-google'></i></a>
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+            </div>
+        </form>
+    </div>
+
+    <div class="signupbox">
+        <form action="inputbox">
+            <h1>Sign up</h1>
+            <div class="inputbox">
+                <input type="text" placeholder="Username" required>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="inputbox">
+                <input type="email" placeholder="email" required>
+                <i class='bx bxs-envelope'></i>
+            </div>
+            <div class="inputbox">
+                <input type="number" placeholder="Phone number" required>
+                <i class='bx bxs-phone'></i>
+            </div>
+            <button type="submit" class="btn" onclick="location.href='OTP.html'">Sign up</button>
+            <p>or login with social platforms</p>
+            <div class="socialplatforms">
+                <a href="#"><i class='bx bxl-google'></i></a>
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+            </div>
+        </form>
+    </div>
+
+    <div class="togglebox">
+        <div class="togglepannel">
+            <h1>Hello, Welcome!</h1>
+            <p>don't have an account?</p>
+            <button class="btn signup">Sign up</button>
+        </div>
+
+        <div class="togglepannelsignup">
+            <h1>Welcome Back!</h1>
+            <p>Already have an account?</p>
+            <button class="btn login">Login</button>
+        </div>
+    </div>
+</div>
+    <script src="signin.js"></script>
+</body>
+
+</html>
