@@ -1,0 +1,589 @@
+.imga {
+    height: 90px;
+    width: 90px;
+    
+}
+.img {
+    height: 90px;
+    width: 90px;
+}
+.imgb{
+    height: 90px;
+    width: 90px;
+    margin-left: 80px;
+}
+.bn1{
+    background-color: rgb(250, 250, 250);
+    border-color: white;
+    height: 80px;
+    width: 100px;
+    margin-left: 60px;
+    margin-top: 0px;
+    border: none;
+}
+.containor .btn {
+    position: absolute;
+    top: 72%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+    background-color: #000000;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.a {
+    display: flex;
+}
+
+.a1 {
+    display: flex;
+    margin-left: 50px;
+}
+
+.a11 {
+    margin: 24px 50px 50px 150px;
+    display: flex
+}
+
+.i1 {
+    padding: 8px 5px 8px 5px;
+    margin-bottom: 20px;
+}
+
+.i2 {
+    padding: 8px 5px 8px 5px;
+}
+
+.sg1 {
+    margin: 32px 8px;
+}
+
+.sg2 {
+    margin-top: 31px;
+    margin-right: 3px;
+    margin-left: 25px;
+}
+
+.sg3 {
+    margin-top: 30px;
+    margin-right: 4px;
+    margin-left: 25px;
+}
+
+.sg4 {
+    margin-top: 30px;
+    margin-right: 4px;
+    margin-left: 25px;
+    color: #5f5f5f;
+}
+
+.sg5 {
+    margin-top: 9px;
+    margin-right: 3px;
+}
+
+.a12 {
+    margin: 24px 100px 50px 0px;
+}
+
+button.b1 {
+    margin: 30px 40px 70px 40px;
+    padding: 0px 2px 2px 2px;
+    border: 0;
+    background-color: white;
+    font-size: large;
+    color: rgb(93, 93, 93);
+}
+
+button.b2 {
+    margin: 30px 40px 70px 0px;
+    padding: 0px 2px 2px 2px;
+    border: 0;
+    background-color: white;
+    font-size: large;
+    color: rgb(93, 93, 93);
+}
+
+button.b3 {
+    margin: 30px 40px 70px 0px;
+    padding: 0px 2px 2px 2px;
+    border: 0;
+    background-color: white;
+    font-size: large;
+    color: rgb(93, 93, 93);
+}
+
+button.b4 {
+    margin: 30px 40px 70px 0px;
+    padding: 0px 2px 2px 2px;
+    border: 0;
+    background-color: white;
+    font-size: large;
+    color: rgb(93, 93, 93);
+}
+
+button.b1:hover {
+    color: rgb(255, 106, 0);
+    box-shadow: #000000;
+    transform: scale(1.1);
+}
+
+button.b2:hover {
+    color: rgb(255, 106, 0);
+    transform: scale(1.1);
+}
+
+button.b3:hover {
+    color: rgb(255, 106, 0);
+    transform: scale(1.1);
+}
+
+button.b4:hover {
+    color: rgb(255, 106, 0);
+    transform: scale(1.1);
+}
+
+svg.sg2:hover {
+    color: rgb(255, 106, 0);
+    transform: scale(1.1);
+}
+
+header {
+    position: sticky;
+    top: 0;
+    padding: 10px 16px;
+    background-color: rgb(250, 250, 250);
+    height: 70px;
+    z-index: 99;
+    width: 100%;
+}
+.p1{
+    font-size: 70px;
+    margin: 80px 0px 0px 70px;
+    text-align: left;
+}
+.p2{
+    font-size: 25px;
+    margin:30px 0px 0px 70px;
+    color: #5d5d5d;
+    text-align: left;
+}
+.p3{
+    font-size: 18px;
+    margin: 11px 0px 0px 12px;
+}
+.p4{
+    font-size: 19px;
+    margin: 10px 0px 0px 4px ;
+}
+.p5{
+    font-size: 18px;
+    margin: 11px 0px 0px 12px;
+}
+
+.im2{
+    width: 26px;
+    height: 26px;
+    margin: 8px 0px 0px 67px;
+}
+
+.d2{
+    display: flex;
+}
+
+
+.imd{
+    width: 760px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+body{
+    background-color: rgb(255, 241, 221) ;
+    overflow-x: hidden;
+}
+.imd2{
+    width: 760px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+button.bt1 {
+    margin: 30px 5px 10px 100px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(255, 255, 255);
+    font-size: medium;
+    color: rgb(158, 158, 158);
+    border-radius: 10px;
+    border-color: rgb(172, 172, 172);;
+}
+
+button.bt2 {
+    margin: 30px 5px 10px 0px;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+    font-size:medium;
+    color: rgb(158, 158, 158);
+    border-radius: 10px;
+    border-color: rgb(172, 172, 172);;
+}
+
+button.bt1:hover {
+    color: rgb(255, 106, 0);
+    background-color: antiquewhite;
+    transform: scale(1.1);
+}
+
+
+button.bt2:hover {
+    color: rgb(255, 106, 0);
+    background-color: antiquewhite;
+    transform: scale(1.1);
+}
+
+button.but{
+    width: 100%;
+    margin: 30px 20px 0px 80px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 30px;
+    box-shadow: #000000;
+    background-color: white;
+    border-color: rgb(255, 255, 255);
+}
+button.but1{
+    width: 100%;
+    margin: 0px 20px 0px 80px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 30px;
+    box-shadow: #000000;
+    background-color: white;
+    border-color: rgb(255, 255, 255);
+}
+
+.d1{
+    background-color: rgb(255, 255, 248);
+    display: flex;
+    width: 97%;
+    /* margin: 30px 20px 0px 80px; */
+    padding: 0px 0px 0px 0px;
+    border-radius: 30px;
+    box-shadow: #000000;
+}
+.im1{
+    width: 280px;
+    height: 200px;
+    margin: 10px 30px 10px 86px;
+    border-radius: 7%;
+    box-shadow: #000000;
+}
+
+.p1{
+    font-size: 45px;
+    margin: 20px 0px 0px 70px;
+    text-align: left;
+
+}
+
+.p4{
+    font-size: 30px;
+    margin: 30px 1000px 0px 70px ;
+    text-align: left;
+    background-color: yellow;
+    padding: 0px 0px 0px 0px;
+}
+.p5{
+    font-size: 18px;
+    margin: 11px 0px 0px 12px;
+}
+.im2{
+    width: 26px;
+    height: 26px;
+    margin: 8px 0px 0px 67px;
+}
+
+.p3{
+    font-size: 18px;
+    margin: 11px 0px 0px 12px;
+}
+.p2{
+    font-size: 20px;
+    margin:40px 0px 0px 70px;
+    color: #5d5d5d;
+    text-align: left;
+
+}
+.d2{
+    display: flex;
+}
+
+button.but:hover{
+    transform: scale(1.1);
+}
+button.but1:hover{
+    transform: scale(1.05);
+}
+
+
+.pt1{
+    font-size:60px;
+    margin: 30px 0px 20px 70px;
+    text-align: left;
+
+}
+
+.pt4{
+    font-size: 19px;
+    margin: 10px 0px 0px 4px ;
+}
+.pt5{
+    font-size: 18px;
+    margin: 11px 0px 0px 12px;
+}
+.imt2{
+    width: 26px;
+    height: 26px;
+    margin: 8px 0px 0px 67px;
+}
+
+.pt3{
+    font-size: 18px;
+    margin: 11px 0px 0px 12px;
+}
+.pt2{
+    font-size: 20px;
+    margin:30px 0px 0px 70px;
+    color: #5d5d5d;
+    text-align: left;
+
+}
+.dt2{
+    display: flex;
+}
+
+.conti {
+    position: relative;
+    width: 50%;
+  }
+  
+.button-container {
+    position: relative; /* Ensure the "Add to Cart" button is positioned relative to this container */
+    display: inline-block;
+}
+
+.add-to-cart-btn {
+    position: absolute;
+    bottom: 10px; /* Adjust to place it above the "but1" button */
+     /* Adjust position as needed */
+    background-color: rgb(255, 235, 208);
+    margin: 0px 0px 34px 1335px;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #edbf96;
+    transform: scale(1.05);
+}
+
+.quantity-selector {
+    position: absolute; /* Ensure it is positioned relative to its nearest positioned ancestor */
+    top: 50%; /* Center it vertically inside the parent button */
+    left: 50%; /* Center it horizontally inside the parent button */
+    transform: translate(-50%, -50%); /* Adjust for centering */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    z-index: 99; /* Keep it on top of other elements */
+    background-color: rgba(255, 255, 255, 0.9); /* Optional: Add a background for visibility */
+    padding: 5px 10px; /* Optional: Add padding for spacing */
+    border-radius: 10px; /* Optional: Rounded edges */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 55px 0px 20px 580px; /* Optional: Add shadow for contrast */
+}
+
+.quantity-btn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 0;
+    background-color: #f08a24; /* Button color */
+    color: white; /* Button text color */
+    border: none; /* Remove borders */
+    border-radius: 50%; /* Make the buttons circular */
+    cursor: pointer;
+ /* Change cursor to pointer on hover */
+}
+
+.quantity-btn:hover {
+    background-color: #c96c1a; /* Darken color on hover */
+}
+
+.quantity-value {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+.cart-items-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.cart-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-summary {
+    text-align: right;
+}
+
+.checkout-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.checkout-btn:hover {
+    background-color: #45a049;
+}
+/* Cart Container */
+#cart-container {
+    position: fixed;
+    top: 0;
+    left: -20%; /* Hidden by default */
+    width: 20%;
+    height: 100%;
+    background-color: #f4f4f4;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    transition: left 0.3s ease-in-out;
+    overflow-y: auto;
+    padding: 20px;
+    z-index: 1000;
+}
+
+/* Open state for cart */
+#cart-container.cart-visible {
+    left: 0; /* Slide in */
+}
+
+/* Close Button */
+.close-cart-btn {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 16px;
+}
+
+.close-cart-btn:hover {
+    background-color: #cc0000;
+}
+
+/* Cart items container */
+.cart-items-container {
+    margin-top: 20px;
+}
+
+.cart-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-summary {
+    margin-top: 20px;
+}
+
+.checkout-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.checkout-btn:hover {
+    background-color: #45a049;
+}
+
+/* Open cart button */
+#open-cart {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1100;
+}
+
+#open-cart:hover {
+    background-color: #0056b3;
+}
+/* Cart Popup Styling */
+#cart-popup {
+    position: fixed;
+    top: 0;
+    right: -100%; /* Hidden by default */
+    width: 20%;
+    height: 100%;
+    background-color: #ffffff;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+    transition: right 0.5s ease-in-out; /* Smooth slide-in animation */
+    overflow-y: auto;
+    padding: 20px;
+    z-index: 1000;
+}
+
+/* Make it visible when the page loads */
+body.loaded #cart-popup {
+    right: 0;
+}
+
+/* Cart Summary Styling */
+.cart-summary {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    background: #f9f9f9;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.checkout-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.checkout-btn:hover {
+    background-color: #45a049;
+}
