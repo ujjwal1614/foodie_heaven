@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.containor {
+    position: relative;
+    width: 850px;
+    height: 550px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0px 2px 10px rgb(49, 47, 47);
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);;
+}
+
+.loginbox {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    /* background: rgb(191, 233, 249); */
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 40px;
+    /* z-index: 99; */
+    background-color: rgb(255, 255, 255);
+    transition: 0.6s ease-in-out 0.6s, visibility 0s 1s ;
+}
+
+.signupbox {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    /* background: rgb(191, 233, 249); */
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 40px;
+    visibility: hidden;
+    background-color: rgb(255, 255, 255);
+    transition: 0.6s ease-in-out 0.6s,  ;
+    pointer-events:visible;
+}
+form {
+    width: 100%;
+}
+
+.containor h1 {
+    font-size: 36px;
+    margin: -10px 0;
+}
+
+.inputbox {
+    position: relative;
+    margin: 30px 0px;
+}
+
+.inputbox input {
+    width: 100%;
+    padding: 13px 50px 13px 20px;
+    background: #eee;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.inputbox input::placeholder {
+    color: #888;
+    font-weight: 400;
+}
+
+.inputbox i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #888;
+}
+
+.containor.active .loginbox {
+    right: 50%;
+}
+.containor.active .signupbox {
+    right: 50%;
+}
+
+.btn {
+    width: 100%;
+    height: 39px;
+    background: rgb(255, 106, 0);
+    border-radius: 8px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 1); 
+    border: none;
+    /* cursor: pointer; */
+    color: #fff;
+    font-weight: 600;
+}
+
+.containor p {
+    font-size: 14.5px;
+    margin: 15px 0;
+}
+
+.socialplatforms a {
+    display: inline-flex;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px ;
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+.togglebox {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+}
+
+.togglebox::before {
+    content: '';
+    position: absolute;
+    left: -200%;
+    width: 300%;
+    height: 100%;
+    background: rgb(255, 196, 153);
+    z-index: 2;
+    border-radius: 150px;
+    transition: 1s ease-in-out;
+    
+}
+
+.containor.active .togglebox::before {
+    left: 100%;
+}
+
+.togglepannel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background: rgb(90, 91, 172); */
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    transition: .6s ease-in-out;
+    left: 0;
+    transition-delay: .6s;
+}
+
+.containor.active .togglepannel {
+    left: -90%;
+    transition-delay: 0.4s ;
+  
+}
+
+.containor.active .signupbox {
+    visibility: visible;
+}
+
+.togglepannelsignup {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    right: -200%; /* Initial off-screen position */
+    transition: right 0.6s ease-in-out 0.4s; /* Movement starts after a delay */
+}
+
+.containor.active .togglepannelsignup {
+    right: -100%; /* Move into view */
+    transition: right 1s ease-in-out; /* No delay when becoming active */
+}
+
+
+.togglepannel p {
+    margin-bottom: 20px;
+}
+
+.togglepannelsignup {
+    margin-bottom: 20px;
+}
+
+.togglepannel .btn {
+    width: 100px;
+    height: 46px;
+    background: rgb(255, 106, 0);
+    border: 2px solid #fff;
+    box-shadow: none;
+}
+
+.togglepannelsignup .btn {
+    width: 100px;
+    height: 46px;
+    background: rgb(255, 106, 0);
+    border: 2px solid #fff;
+    box-shadow: none;
+}
