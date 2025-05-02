@@ -1,0 +1,343 @@
+img {
+    height: 90px;
+    width: 90px;
+    margin-left: 60px;
+}
+.imga {
+    height: 90px;
+    width: 90px;}
+.a {
+    display: flex;
+}
+
+.a1 {
+    display: flex;
+    margin-left: 50px;
+}
+.bn1{
+    background-color: rgb(250, 250, 250);
+    border-color: white;
+    height: 80px;
+    width: 100px;
+    margin-left: 60px;
+    margin-top: 0px;
+    border: none;
+}
+.a11 {
+    margin: 24px 50px 50px 150px;
+    display: flex
+}
+
+.i1 {
+    padding: 8px 5px 8px 5px;
+    margin-bottom: 20px;
+}
+
+.i2 {
+    padding: 8px 5px 8px 5px;
+}
+
+.sg1 {
+    margin: 32px 8px;
+}
+
+.sg2 {
+    margin-top: 31px;
+    margin-right: 3px;
+    margin-left: 25px;
+}
+
+.sg3 {
+    margin-top: 30px;
+    margin-right: 4px;
+    margin-left: 25px;
+}
+
+.sg4 {
+    margin-top: 30px;
+    margin-right: 4px;
+    margin-left: 25px;
+    color: #5f5f5f;
+}
+
+.sg5 {
+    margin-top: 9px;
+    margin-right: 3px;
+}
+
+.a12 {
+    margin: 24px 100px 50px 0px;
+}
+
+button.b1 {
+    margin: 30px 40px 70px 40px;
+    padding: 0px 2px 2px 2px;
+    border: 0;
+    background-color: white;
+    font-size: large;
+    color: rgb(93, 93, 93);
+}
+
+button.b2 {
+    margin: 30px 40px 70px 0px;
+    padding: 0px 2px 2px 2px;
+    border: 0;
+    background-color: white;
+    font-size: large;
+    color: rgb(93, 93, 93);
+}
+
+button.b3 {
+    margin: 30px 40px 70px 0px;
+    padding: 0px 2px 2px 2px;
+    border: 0;
+    background-color: white;
+    font-size: large;
+    color: rgb(93, 93, 93);
+}
+
+button.b4 {
+    margin: 30px 40px 70px 0px;
+    padding: 0px 2px 2px 2px;
+    border: 0;
+    background-color: white;
+    font-size: large;
+    color: rgb(93, 93, 93);
+}
+
+button.b1:hover {
+    color: rgb(255, 106, 0);
+    box-shadow: #000000;
+    transform: scale(1.1);
+}
+
+button.b2:hover {
+    color: rgb(255, 106, 0);
+    transform: scale(1.1);
+}
+
+button.b3:hover {
+    color: rgb(255, 106, 0);
+    transform: scale(1.1);
+}
+
+button.b4:hover {
+    color: rgb(255, 106, 0);
+    transform: scale(1.1);
+}
+
+svg.sg2:hover {
+    color: rgb(255, 106, 0);
+    transform: scale(1.1);
+}
+
+header {
+    position: sticky;
+    top: 0;
+    padding: 10px 16px;
+    background-color: rgb(250, 250, 250);
+    height: 70px;
+    z-index: 99;
+    width: 100%;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    /* position: relative; */
+}
+
+button.bt1 {
+    margin: 30px 5px 10px 100px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(255, 255, 255);
+    font-size: medium;
+    color: rgb(158, 158, 158);
+    border-radius: 10px;
+    border-color: rgb(172, 172, 172);;
+    border: solid;
+    /* border-color: #000000; */
+}
+button.bt1:hover {
+    transform: scale(1.1);
+}
+button.bt2:hover {
+    transform: scale(1.1);
+}
+button.bt3:hover {
+    transform: scale(1.1);
+}
+
+button.bt2 {
+    margin: 30px 5px 10px 0px;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+    font-size:medium;
+    color: rgb(158, 158, 158);
+    border-radius: 10px;
+    border-color: rgb(172, 172, 172);
+    border: solid;
+}
+button.bt3 {
+    margin: 30px 40px 10px 0px;
+    padding: 10px 30px 10px 30px;
+    background-color: white;
+    font-size:medium;
+    color: rgb(158, 158, 158);
+    border-radius: 10px;
+    border-color: rgb(172, 172, 172);
+    border: solid;
+}
+button.bt1:hover {
+    color: rgb(255, 106, 0);
+    background-color: antiquewhite;
+}
+
+
+button.bt2:hover {
+    color: rgb(255, 106, 0);
+    background-color: antiquewhite;
+}
+button.bt3:hover {
+    color: rgb(255, 106, 0);
+    background-color: antiquewhite;
+}
+
+.h1 {
+    margin: 50px 0px 0px 100px;
+    font-size: 50px;
+}
+
+.hd1 {
+    margin: 10px 0px 40px 100px;
+}
+
+.fd {
+    display:flex;
+    margin-top: 20px;
+}
+.fd01{
+border-radius: 50%;
+height: 200px;
+width: 200px;
+margin: 10px 20px 5px 50px;
+border: none;
+    background-color: white;
+}
+
+.fd010{
+border-radius: 50%;
+height: 200px;
+width: 200px;
+margin: 10px 20px 5px 80px;
+}
+
+
+.fd11{
+    text-decoration: none;
+    color: black;
+    margin: 5px 15px 50px 120px;
+    font-size: 18px;
+
+}
+.fd110{
+    text-decoration: none;
+    color: black;
+    margin: 5px 15px 50px 147px;
+    font-size: 18px;
+
+}
+.fd111{
+    text-decoration: none;
+    color: black;
+    margin: 5px 15px 50px 120px;
+    font-size: 18px;
+
+}
+
+.fdd {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 50px;margin: 0px 0px 0px 0px;
+}
+
+.fdd01{
+border-radius: 50%;
+height: 200px;
+width: 200px;
+margin: 10px 25px 5px 50px;
+}
+.fdd011{
+border-radius: 50%;
+height: 200px;
+width: 200px;
+margin: 10px 25px 5px 60px;
+}
+.fdd010{
+border-radius: 50%;
+height: 200px;
+width: 200px;
+margin: 10px 20px 5px 80px;
+padding: 0px 0px 0px 0px;
+}
+.fd01:hover{
+    transform: scale(1.1);
+
+}
+.fd1:hover{
+    transform: scale(1.1);
+
+}
+
+.fdd1:hover{
+    transform: scale(1.1);
+
+}
+
+.fdd11{
+    text-decoration: none;
+    color: black;
+    margin: 5px 15px 50px 130px;
+    font-size: 18px;
+
+}
+.fdd112{
+    text-decoration: none;
+    color: black;
+    margin: 5px 15px 50px 100px;
+    font-size: 18px;
+    border:none;
+    background-color: white;
+
+}
+.fdd111{
+    text-decoration: none;
+    color: black;
+    margin: 5px 15px 50px 140px;
+    font-size: 18px;
+
+}
+.fdd110{
+    text-decoration: none;
+    color: black;
+    margin: 5px 15px 50px 155px;
+    font-size: 18px;
+
+}
+.button.dosa{
+    border: none;
+    background-color: white;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+}
+button {
+    background-color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9; /* Optional for hover effect */
+}

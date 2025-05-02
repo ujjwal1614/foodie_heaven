@@ -1,0 +1,130 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* Light grey background for contrast */
+    color: #333; /* Dark text for readability */
+}
+
+/* Heading styling */
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 20px;
+    color: #444;
+}
+
+/* Cart items container */
+.cart-item {
+    display: grid; /* Use grid for consistent alignment */
+    grid-template-columns: 1fr 2fr 1fr 1fr; /* Adjust column widths */
+    align-items: center; /* Vertically align items */
+    gap: 10px; /* Add spacing between columns */
+    border-bottom: 1px solid #e0e0e0; /* Subtle divider */
+    padding: 15px 0;
+    margin-left: 140px;
+}
+
+.cart-item img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.cart-item-details {
+    overflow: hidden; /* Prevent text overflow */
+    white-space: nowrap; /* Prevent wrapping */
+    text-overflow: ellipsis; /* Add ellipsis for long names */
+}
+
+.cart-item-details h4 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #555;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cart-item-details p {
+    margin: 5px 0 0;
+    font-size: 0.9rem;
+    color: #777;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cart-item-price {
+    text-align: center; /* Center-align price in its column */
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #444;
+}
+
+.cart-item-quantity {
+    text-align: center; /* Center-align quantity in its column */
+    font-size: 1rem;
+    color: #666;
+}
+/* Cart summary */
+.cart-summary {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    text-align: right;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.cart-summary h3 {
+    font-size: 1.5rem;
+    margin: 0 0 20px;
+    color: #333;
+}
+
+.cart-summary span {
+    color: #d32f2f; /* Highlighted price color */
+    font-weight: bold;
+}
+
+/* Checkout button */
+.checkout-btn {
+    background-color: #4CAF50; /* Green button */
+    color: #fff; /* White text */
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.checkout-btn:hover {
+    background-color: #45A049; /* Slightly darker green on hover */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .cart-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .cart-item img {
+        margin-bottom: 10px;
+    }
+
+    .cart-summary {
+        text-align: center;
+    }
+
+    .checkout-btn {
+        width: 100%;
+    }
+}
